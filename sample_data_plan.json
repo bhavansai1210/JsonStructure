@@ -1,0 +1,80 @@
+{
+    "firstName" : "Sriram",
+    "lastName" : "Ayyer",
+    "fullName" : "Sriram Ayyer",
+    "phoneNumber" : "3018433444",
+    "city" : "Agra",
+    "email" : [
+        "SRIRAM.AYYER@GMAIL.COM",
+        "lvdent605@gmail.com",
+        "info@lakeview.com"
+    ],
+    "gender" : "M",
+    "npiNumber" : "1366964885",
+    "npiType" : "Individual",
+    "specialties" : [
+        {
+            "sid" : "1",
+            "name" : "General Dentist 2"
+        }
+    ],
+    "clinicAddresses" : [
+        {
+            "cid" : "1",
+            "clinicName" : "Rahul Clinic",
+            "streetName" : "605 POST OFFICE RD STE 203",
+            "stateCode" : "AG",
+            "zipCode" : "411028",
+            "phoneNumber" : "9999999999",
+            "npiNumber" : "2566964996",
+            "npiType" : "organization",
+            "commercial" : true,
+            "active" : true,
+            "verified" : "Y",
+            "confidenceScore" : "5",
+            "geoLocation" : {
+                "type" : "Point",
+                "coordinates" : [
+                    78.0421,
+                    27.1751
+                ]
+            },
+            "insurances" : [
+                {
+                    "iid" : "1",
+                    "name" : "Aetna",
+                    "plans" : [
+                        {
+                            "pid" : "1",
+                            "name" : "Aetna Dental-1",
+                            "type" : "HMO"
+                        },
+                        {
+                            "pid" : "2",
+                            "name" : "Aetna Dental-2",
+                            "type" : "PPO"
+                        }
+                    ]
+                },
+                {
+                    "iid" : "2",
+                    "name" : "DPPOAmeritas",
+                    "plans" : [
+                        {
+                            "pid" : "1",
+                            "name" : "Ameritas Dental-1",
+                            "type" : "HMO"
+                        },
+                        {
+                            "pid" : "2",
+                            "name" : "Ameritas Dental-2",
+                            "type" : "PPO"
+                        }
+                    ]
+                }
+            ],
+            "longitude" : 78.0421,
+            "latitude" : 27.1751
+        }
+    ]
+  }
